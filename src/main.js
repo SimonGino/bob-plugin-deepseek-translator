@@ -88,7 +88,7 @@ function buildRequestBody(model, query, isStream) {
   $log.info(`System Prompt:${systemPrompt}\nUser Prompt:${userPrompt}`);
 
   return {
-    model: model || "qwen-plus",
+    model: model || "deepseek-chat",
     messages: [
       { role: "system", content: systemPrompt },
       { role: "user", content: userPrompt }
@@ -168,7 +168,7 @@ function handleNormalRequest(query, completion, header, body) {
     try {
       const response = await $http.request({
         method: 'POST',
-        url: 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions',
+        url: $option.apiUrl || 'https://api.deepseek.com/v1/chat/completions',
         header,
         body,
       });
@@ -336,7 +336,7 @@ function handleStreamRequest(query, header, body) {
     try {
       await $http.streamRequest({
         method: 'POST',
-        url: 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions',
+        url: $option.apiUrl || 'https://api.deepseek.com/v1/chat/completions',
         header,
         body,
         streamHandler: (streamData) => {

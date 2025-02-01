@@ -3,7 +3,7 @@
 </h4>
 
 <div>
-  <h1 align="center">Qwen Translator Bob Plugin</h1>
+  <h1 align="center">DeepSeek Translator Bob Plugin</h1>
   <p align="center">
     <a href="https://github.com/simongino/bob-plugin-qwen-translator/releases" target="_blank">
         <img src="https://github.com/simongino/bob-plugin-qwen-translator/actions/workflows/release.yaml/badge.svg" alt="release">
@@ -12,7 +12,7 @@
         <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/simongino/bob-plugin-qwen-translator?style=flat">
     </a>
     <a href="https://github.com/simongino/bob-plugin-qwen-translator/releases">
-        <img alt="GitHub Repo stars" src="https://img.shields.io/badge/qwen-bob-orange?style=flat">
+        <img alt="GitHub Repo stars" src="https://img.shields.io/badge/deepseek-bob-orange?style=flat">
     </a>
     <a href="https://github.com/simongino/bob-plugin-qwen-translator/releases">
         <img alt="GitHub Repo stars" src="https://img.shields.io/badge/langurage-JavaScript-brightgreen?style=flat&color=blue">
@@ -22,51 +22,51 @@
 
 ## Introduction
 
-This is a Bob translation plugin powered by the Qwen API. While Bob's community version lacks LLM-based translation services, this plugin fills this gap by providing a more intelligent and natural translation experience.
+This is a Bob translation plugin powered by the DeepSeek API. While Bob's community version lacks LLM-based translation services, this plugin fills this gap by providing a more intelligent and natural translation experience.
 
 ### Why Choose This Plugin?
 
 - LLM-based translation service for more natural and fluent results
 - Support Bob Community Edition, version requirement >= 0.50
 - Text polishing feature for expression optimization
-- Fast response using the latest Qwen-3.5 model
+- Fast response using the latest DeepSeek Chat model
 - Easy installation and configuration
-- Completely free to use with your own Qwen API Key
+- Completely free to use with your own DeepSeek API Key
 
 ### Key Features
 
 #### Smart Translation
-Leverages Qwen's powerful language understanding capabilities for more accurate translations, especially suitable for long sentences and technical terms.
+Leverages DeepSeek's powerful language understanding capabilities for more accurate translations, especially suitable for long sentences and technical terms.
 
 #### Text Polishing
 Supports text optimization within the same language - just set the target language to match the source language for improved expression.
 
 ### Language Model
 
-Currently uses the `Qwen-3.5` model by default:
+Currently uses the `DeepSeek Chat` model by default:
 - Near real-time translation experience
 - Excellent translation quality
 - Cost-effective API calls
 
-For more model details, please refer to the [official model comparison](https://www.aliyun.com/product/dashscope).
+For more model details, please refer to the [official documentation](https://platform.deepseek.com/).
 
 ## Usage
 
 1. Install [Bob](https://bobtranslate.com/guide/#%E5%AE%89%E8%A3%85) (version >= 0.50)
 
-2. Download plugin: [qwen-translator.bobplugin](https://github.com/simongino/bob-plugin-qwen-translator/releases/latest)
+2. Download plugin: [deepseek-translator.bobplugin](https://github.com/simongino/bob-plugin-qwen-translator/releases/latest)
 
 3. Install plugin: Double-click the downloaded .bobplugin file
 
 4. Get API Key:
-   - Visit [Qwen Console](https://console.aliyun.com/product/dashscope)
+   - Visit [DeepSeek Platform](https://platform.deepseek.com/)
    - Register/Login to your account
    - Obtain API Key from the console
 
 5. Configure plugin:
    - Open Bob Preferences
    - Select Services tab
-   - Find Qwen Translator
+   - Find DeepSeek Translator
    - Enter your API Key in the configuration box
 
 6. Optional setup:

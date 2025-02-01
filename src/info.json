@@ -1,9 +1,9 @@
 {
-  "identifier": "simongino.qwen.translator",
+  "identifier": "simongino.deepseek.translator",
   "version": "0.1.0",
   "category": "translate",
-  "name": "通义千问翻译",
-  "summary": "通义千问驱动的翻译插件",
+  "name": "DeepSeek 翻译",
+  "summary": "DeepSeek 驱动的翻译插件",
   "icon": "",
   "author": "SimonGino <rwjeek@gmail.com>",
   "homepage": "https://github.com/simongino/bob-plugin-qwen-translator",
@@ -14,7 +14,7 @@
       "identifier": "apiKey",
       "type": "text",
       "title": "API KEY",
-      "desc": "通义千问 API Key",
+      "desc": "DeepSeek API Key",
       "textConfig": {
         "type": "secure",
         "height": "40",
@@ -25,19 +25,15 @@
       "identifier": "model",
       "type": "menu",
       "title": "模型",
-      "defaultValue": "qwen-plus",
+      "defaultValue": "deepseek-chat",
       "menuValues": [
         {
-          "title": "通义千问 Max",
-          "value": "qwen-max"
+          "title": "DeepSeek Chat",
+          "value": "deepseek-chat"
         },
         {
-          "title": "通义千问 Plus",
-          "value": "qwen-plus"
-        },
-        {
-          "title": "通义千问 Turbo",
-          "value": "qwen-turbo"
+          "title": "DeepSeek Code",
+          "value": "deepseek-coder"
         }
       ]
     },
