@@ -24,22 +24,21 @@
 
 This is a Bob translation plugin powered by the DeepSeek API. While Bob's community version lacks LLM-based translation services, this plugin fills this gap by providing a more intelligent and natural translation experience.
 
-### Why Choose This Plugin?
+### Version Compatibility
 
-- LLM-based translation service for more natural and fluent results
-- Support Bob Community Edition, version requirement >= 0.50
-- Text polishing feature for expression optimization
-- Fast response using the latest DeepSeek Chat model
-- Easy installation and configuration
-- Completely free to use with your own DeepSeek API Key
+| Version | Support | Notes |
+|---------|----------|--------|
+| Bob Community Edition | ✓ Supported | - Version requirement >= 0.50<br>- No streaming response support |
+| Bob Store Edition | ✓ Supported | Full feature support |
 
-### Key Features
+### Core Advantages
 
-#### Smart Translation
-Leverages DeepSeek's powerful language understanding capabilities for more accurate translations, especially suitable for long sentences and technical terms.
-
-#### Text Polishing
-Supports text optimization within the same language - just set the target language to match the source language for improved expression.
+| Feature | Description |
+|---------|-------------|
+| Smart Translation | - Powered by DeepSeek LLM<br>- Natural and fluent translation results<br>- Especially suitable for long sentences and technical terms |
+| Text Polishing | - Supports text optimization within the same language<br>- Provides more elegant expressions |
+| High Performance | - Uses the latest DeepSeek Chat model<br>- Fast response time |
+| User-Friendly | - Simple installation and configuration<br>- Completely free (only requires DeepSeek API Key) |
 
 ### Language Model
 
