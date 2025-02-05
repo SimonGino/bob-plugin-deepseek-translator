@@ -6,8 +6,8 @@
   "summary": "DeepSeek 驱动的翻译插件",
   "icon": "",
   "author": "SimonGino <rwjeek@gmail.com>",
-  "homepage": "https://github.com/simongino/bob-plugin-qwen-translator",
-  "appcast": "https://raw.githubusercontent.com/simongino/bob-plugin-qwen-translator/main/appcast.json",
+  "homepage": "https://github.com/simongino/bob-plugin-deepseek-translator",
+  "appcast": "https://raw.githubusercontent.com/simongino/bob-plugin-deepseek-translator/main/appcast.json",
   "minBobVersion": "0.5.0",
   "options": [
     {
@@ -102,7 +102,7 @@
       "identifier": "apiUrl",
       "type": "text",
       "title": "自定义 API Base URL",
-      "desc": "如果您的网络环境需要代理才能访问 Qwen API, 可在这里修改为反代 API 的地址",
+      "desc": "如果您的网络环境需要代理才能访问 Deepseek API, 可在这里修改为反代 API 的地址",
       "textConfig": {
         "type": "visible",
         "placeholderText": "https://dashscope.aliyuncs.com"
